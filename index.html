@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="caro.css">
+</head>
+<body >
+
+    <div class="navbar">
+            <div class="navItem">Home</div>
+        <div class="navItem">UNESCO Sites</div>
+        <div class="navItem">Contact Us</div>
+    </div>
+
+    <div class="home">
+        <div class="wrapper">
+            <div class="box">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+        </div>
+
+        <div class="homeContent">
+            <h1>UNESCO</h1>
+            <h2>WORLD HERITAGE SITES</h2>
+            <p class="siteInfo">
+                This website contains information about various UNESCO world heritage sites with their images.
+                <br>
+                For sample website usage only <span style="color: rgb(163, 85, 236);">5 UNESCO world heritage sites</span> have been selected
+                <br>
+                The UI/UX is  designed seamless for desktop and mobile versions
+                <br>
+                <div class="doc">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <a href="README.txt" download="">Get documentation</a>
+                </div>
+            </p>
+            
+            <div class="explore">
+                <span>Explore</span>
+            <i class="fa fa-arrow-circle-down exploreIcon" aria-hidden="true" ></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="background" style="background: url(back1.png);">
+        <div class="mainBody">
+            <div class="container">
+                <div class="prev">
+                    <button class="nav"><</button>
+                </div>
+                <div class="main">
+            
+                    <div class="slider">
+                        <img src="img1.jpg" alt="" >
+                        <img src="img2.jpg" alt="" >
+                        <img src="img3.jpg" alt="" >
+                        <img src="img4.jpg" alt="" >
+                        <img src="img5.jpg" alt="" >
+                    </div>
+            
+                    <div class="loadContainer">
+                        <div class="loader activeLoader">
+                            <div class="loadProgress loading"></div>
+                        </div>
+                        <div class="loader">
+                            <div class="loadProgress"></div>
+                        </div>
+                        <div class="loader">
+                            <div class="loadProgress"></div>
+                        </div>
+                        <div class="loader">
+                            <div class="loadProgress"></div>
+                        </div>
+                        <div class="loader">
+                            <div class="loadProgress"></div>
+                        </div>
+                    </div>
+            
+                        
+                </div>
+            
+                <div class="forw">
+                    <button class="nav">></button>
+                </div>
+            </div>
+        
+            <div class="info">
+                <div class="title">
+                    <h1 class="titleText">Colosseum</h1>
+                </div>
+                <div class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h3 class="locationText">Regio III Isis et Serapis, Rome, Italy</h3>
+                </div>
+                <div class="cord">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <h3 class="cordText">41°53′25″N 12°29′32″E</h3>
+                </div>
+                <div class="about">
+                    The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age.
+                </div>
+        
+                <div class="moretab">
+                    <button class="more">
+                        <i class="fa fa-search" aria-hidden="true" style="margin-right: 5px;"></i>
+                        <span><a href="https://en.wikipedia.org/wiki/Colosseum" id="search">Explore more</a></span>
+                    </button>
+        
+                    <button class="more">
+                        <i class="fa fa-location-arrow" aria-hidden="true" style="margin-right: 5px;"></i>
+                        <a href="https://www.google.com/maps/place/Colosseum/@41.8902142,12.489656,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61b6532013ad:0x28f1c82e908503c4!8m2!3d41.8902102!4d12.4922309!16zL20vMGQ1cXg?entry=ttu" id="map"><span>Map</span></a>
+                    </button>
+                </div>
+        
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="contact">
+        <section id="contact">
+  
+            <h1 class="section-header">Questions ?</h1>
+            
+            <div class="contact-wrapper">
+            
+            <!-- Left contact page --> 
+              
+              <form id="contact-form" class="form-horizontal" role="form">
+                 
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                  </div>
+                </div>
+          
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                  </div>
+                </div>
+          
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                
+                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                  <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                  </div>
+                
+                </button>
+                
+              </form>
+              
+            <!-- Left contact page --> 
+              
+                <div class="direct-contact-container">
+          
+                  <ul class="contact-list">
+                    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">NIT Patna</span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="#" title="Give me a call">8600550839</a></span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:vasuc.ug23.cs@nitp.ac.in" title="Send me an email">vasuc.ug23.cs@nitp.ac.in</a></span></i></li>
+                    
+                  </ul>
+          
+                  <hr>
+                  <ul class="social-media-list">
+                    <li><a href="https://github.com/VasuOOCh"class="contact-icon">
+                      <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/vasu-choudhari-5a4363235/" class="contact-icon">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/vasu__choudhari/"  class="contact-icon">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>       
+                  </ul>
+                  <hr>
+          
+                </div>
+              
+            </div>
+            
+          </section>  
+            
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/b51a57a65a.js" crossorigin="anonymous"></script>
+    <script src="caro.js"></script>
+</body>
+</html>
