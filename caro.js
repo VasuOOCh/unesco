@@ -147,7 +147,9 @@ function animation() {
     }
 }
 
-animation();
+setTimeout(()=>{
+    animation();
+},5000)
 
 slider.addEventListener("scrollend", ()=>{
     sliderX = slider.scrollLeft;
